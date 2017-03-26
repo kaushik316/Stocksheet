@@ -1,9 +1,9 @@
 import requests
 import intrinio
+from auth import int_username, int_password
 
-username = "48a049cbc5a8f9e06e5672ef32812478"
-password = "8ae148aee524762ae164c4cc5af173da"
-
+username = int_username
+password = int_password
 
 p = {'ticker':"AAPL",'statement':'income_statement','type':'QTR'}
 auth = {}
