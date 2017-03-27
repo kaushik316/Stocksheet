@@ -31,15 +31,12 @@ if ticker in ticker_list:
 	with open("Stocksheet.csv", "w") as sfile:
 		writer = csv.writer(sfile)
 		writer.writerow(["Ticker", ticker])
-		# writer.writerow([" "])
 
 		for key, value in warren.SUMMARY_DATA.items():
 			writer.writerow([key, value])
-			# writer.writerow([" "])
 
 		for key, value in sorted(bill.SUMMARY_DATA.items()):
 			writer.writerow([key, value])
-			# writer.writerow([" "])
 
 	sfile.close()
 
