@@ -1,8 +1,10 @@
-from valuation_mod import Warren_Buffet
-from technical_mod import Bill_Ackman
 from auth import consumer_key, consumer_secret, access_token, access_token_secret, api_key 
 import csv
 import re
+import sys
+sys.path.insert(0, '/Users/kaushikvisvanathan/Documents/PythonProjects/Finance/Stocksheet/modules')
+from valuation_mod import Warren_Buffet
+from technical_mod import Bill_Ackman
 
 ticker = raw_input("Enter the ticker you would like to search for: ")
 

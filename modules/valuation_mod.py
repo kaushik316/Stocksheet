@@ -92,7 +92,7 @@ class Warren_Buffet(object):
 							self.SUMMARY_DATA[key] = item.find_next_sibling().text
 
 
-	def statement_scraper(self, url, *line_items): # line_items is a list of items to search for
+	def statement_scraper(self, url, *line_items): 
 		statement_url = url.format(self.ticker)
 		r = requests.get(statement_url)
 		soup = BeautifulSoup(r.text, "lxml")
