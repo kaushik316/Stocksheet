@@ -113,9 +113,9 @@ class Bill_Ackman(object):
 		W_lows = df[df["Close"] < df["Lower Band"]]
 		M_tops = df[df["Close"] > df["Upper Band"]]
 
-		self.SUMMARY_DATA["Upper Bollinger Band"] = upper_band
-		self.SUMMARY_DATA["Middle Bollinger Band"] = middle_band
-		self.SUMMARY_DATA["Lower Bollinger Band"] = lower_band		
+		self.SUMMARY_DATA["Bollinger Band - Upper"] = upper_band
+		self.SUMMARY_DATA["Bollinger Band - Middle"] = middle_band
+		self.SUMMARY_DATA["Bollinger Band - Lower"] = lower_band		
 
 
 	def avg_true_range(self, df): 

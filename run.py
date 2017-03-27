@@ -6,7 +6,6 @@ import re
 
 ticker = raw_input("Enter the ticker you would like to search for: ")
 
-
 ticker_list = []
 file1 = open('tickers/nasdaqlisted.txt')
 file2 = open('tickers/otherlisted.txt')
@@ -32,15 +31,15 @@ if ticker in ticker_list:
 	with open("Stocksheet.csv", "w") as sfile:
 		writer = csv.writer(sfile)
 		writer.writerow(["Ticker", ticker])
-		writer.writerow([" "])
+		# writer.writerow([" "])
 
 		for key, value in warren.SUMMARY_DATA.items():
 			writer.writerow([key, value])
-			writer.writerow([" "])
+			# writer.writerow([" "])
 
-		for key, value in bill.SUMMARY_DATA.items():
+		for key, value in sorted(bill.SUMMARY_DATA.items()):
 			writer.writerow([key, value])
-			writer.writerow([" "])
+			# writer.writerow([" "])
 
 	sfile.close()
 
