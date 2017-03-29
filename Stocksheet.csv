@@ -1,19 +1,21 @@
 Ticker,AAPL
+CF Growth Rate,8.14%
+Cash Flow,"[42560.0, 45500.0, 50140.0, 70020.0, 53090.0]"
 Total debt,87880.0
-Market cap,737870.0
+Market cap,739130.0
 EPS,8.35
-P/E ratio,16.87
+P/E ratio,17.22
 Beta,1.45
-Div yield,1.62%
+Div yield,1.59%
 Dividend,0.57
 WACC,10.79%
-Aroon Down,100.00
-Aroon Up,84.00
-Bollinger Band - Lower,137.63
-Bollinger Band - Middle,139.78
-Bollinger Band - Upper,141.93
-Chaikin Money Flow,0.17
-Chandelier Long,138.47
-Chandelier Short,136.28
-Relative Strength Index,63.09
-Ulcer Index,11.79
+Aroon Down,96.00
+Aroon Up,100.00
+Bollinger Band - Lower,137.70
+Bollinger Band - Middle,140.12
+Bollinger Band - Upper,142.55
+Chaikin Money Flow,0.21
+Chandelier Long,139.21
+Chandelier Short,135.79
+Relative Strength Index,65.81
+Ulcer Index,12.70

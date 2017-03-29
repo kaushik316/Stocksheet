@@ -140,7 +140,7 @@ class Warren_Buffet(object):
 		cash_flow = next(cf_generator)
 		cf_growth_rate = self.get_growth_rate(cash_flow)
 		self.SUMMARY_DATA["Cash Flow"] = cash_flow
-		self.SUMMARY_DATA["CF Growth Rate"] = cf_growth_rate
+		self.SUMMARY_DATA["CF Growth Rate"] = "{0:.2f}%".format(cf_growth_rate * 100)
 
 
 	def calc_wacc(self):
