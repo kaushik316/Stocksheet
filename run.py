@@ -25,8 +25,6 @@ if ticker in ticker_list:
 		warren = Warren_Buffet(0.025, 0.09, ticker)
 		warren.calc_wacc()
 		warren.get_cf()
-		print warren.SUMMARY_DATA["Cash Flow"]
-		print warren.SUMMARY_DATA["CF Growth Rate"]
 	except ZeroDivisionError:
 		print "Unable to calculate cost of debt for this stock"
 
