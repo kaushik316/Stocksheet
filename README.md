@@ -19,7 +19,7 @@ csv
 ```
 ### Usage
 Exuecute ```python run.py``` and enter the ticker of the company you would like to obtain metrics for. Output will be written to stocksheet.csv.
-```
+```python
 # Initialize both classes
 warren = Warren_Buffet(0.025, 0.09, ticker)
 bill = Bill_Ackman(api_key,ticker)
@@ -49,7 +49,7 @@ print wacc, coe, cod
 
 #### Bill.run_all()
 Obtains six different technical indicators and saves them in Bill.SUMMARY_DATA dictionary
-```
+```python
 Bill.run_all()
 print Bill.SUMMARY_DATA
 
