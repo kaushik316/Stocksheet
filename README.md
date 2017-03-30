@@ -30,28 +30,28 @@ bill = Bill_Ackman(api_key,ticker)
 #### Warren.get_cf()
 Scrapes and stores historical cash flows and growth rates in the object's SUMMMARY_DATA dictionary.
 ```python
-Warren.get_cf()
+warren.get_cf()
 cf_list = warren.SUMMARY_DATA["Cash Flow"]
 cf_growth_rate = warren.SUMMARY_DATA["Cash Flow"]
 print cf_list, cf_growth_rate
 ```
 
-#### Warren.calc_wacc()
+#### warren.calc_wacc()
 Scrapes information needed to calculate WACC and updates SUMMMARY_DATA dictionary
 ```python
-Warren.calc_wacc()
-wacc = Warren.SUMMARY_DATA["WACC"]
-coe = Warren.cost_of_eq
-cod = Warren.cost_of_debt
+warren.calc_wacc()
+wacc = warren.SUMMARY_DATA["WACC"]
+coe = warren.cost_of_eq
+cod = warren.cost_of_debt
 
 print wacc, coe, cod
 ```
 
-#### Bill.run_all()
+#### bill.run_all()
 Obtains six different technical indicators and saves them in Bill.SUMMARY_DATA dictionary
 ```python
-Bill.run_all()
-print Bill.SUMMARY_DATA
+bill.run_all()
+print bill.SUMMARY_DATA
 
 # stores Aroon indicator, RSI, Bollinger bands, Chaikin Money Flow,
 # Chandelier entry and exits and Ulcer index indicators.
