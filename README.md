@@ -1,5 +1,5 @@
 # Stocksheet
-A program to calculate valuation and technical metrics for a given stock. For a walk through on using these methods in a discounted cash flow valuation of a company, see here. 
+A program to calculate valuation and technical metrics for a given stock. For a walk through on using these methods in a discounted cash flow valuation of a company, see [here](http://kaushik316-blog.logdown.com/posts/1651749-stock-valuation-with-python). 
 
 ### Setup
 Your auth.py file should look like this:
