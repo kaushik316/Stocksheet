@@ -53,7 +53,8 @@ Obtains six different technical indicators and saves them in Bill.SUMMARY_DATA d
 Bill.run_all()
 print Bill.SUMMARY_DATA
 
-# stores Aroon indicator, RSI, Bollinger bands, Chaikin Money Flow, Chandelier entry and exits and Ulcer index indicators.
+# stores Aroon indicator, RSI, Bollinger bands, Chaikin Money Flow,
+# Chandelier entry and exits and Ulcer index indicators.
 ```
 
 
