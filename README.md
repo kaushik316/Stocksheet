@@ -27,7 +27,7 @@ bill = Bill_Ackman(api_key,ticker)
 
 ### Module Methods
 
-#### Warren.get_cf()
+#### warren.get_cf()
 Scrapes and stores historical cash flows and growth rates in the object's SUMMMARY_DATA dictionary.
 ```python
 warren.get_cf()
