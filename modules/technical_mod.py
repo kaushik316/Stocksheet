@@ -140,7 +140,7 @@ class Bill_Ackman(object):
 		df_tr = self.avg_true_range(df)
 
 		rolling_high = df_tr["High"][-22:].max()
-		rolling_low = df_tr["Low"][-22:].max()
+		rolling_low = df_tr["Low"][-22:].min()
 
 		chandelier_long = rolling_high - df_tr.iloc[-1]["Avg TR"] * 3
 		chandelier_short = rolling_low - df_tr.iloc[-1]["Avg TR"] * 3
