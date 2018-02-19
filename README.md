@@ -18,7 +18,7 @@ quandl
 csv
 ```
 ### Usage
-Exuecute ```python run.py``` and enter the ticker of the company you would like to obtain metrics for. Output will be written to stocksheet.csv.
+Execute ```python run.py``` and enter the ticker of the company you would like to obtain metrics for. Output will be written to stocksheet.csv.
 ```python
 # Initialize both classes
 warren = Warren_Buffet(0.025, 0.09, ticker)
